@@ -15,7 +15,8 @@ var LoggerMixin = require('react-logger');
 
 React.createClass({
   displayName: 'TestComponent',
-
+  // Add mixin
+  mixins: [LoggerMixin],
   componentDidMount: function() {
     // Log: [TestComponent] something insightful
     this.log('something insightful');
