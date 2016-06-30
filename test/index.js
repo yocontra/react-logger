@@ -15,11 +15,19 @@ describe('logger', function() {
     done();
   });
   it('should be able to call dir', function(done) {
-    logger.dir.call(dummy, 'test', 123);
+    logger.dir.call(dummy);
     done();
   });
   it('should be able to call error', function(done) {
-    //logger.error.call(dummy, 'test', 123);
+    // logger.error.call(dummy, 'test', 123);
+    done();
+  });
+  it('should be able to call count', function(done) {
+    logger.count.call(dummy);
+    done();
+  });
+  it('should be able to call info', function(done) {
+    logger.info.call(dummy, 'test', 123);
     done();
   });
 });
