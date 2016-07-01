@@ -1,7 +1,7 @@
 {
   "name": "react-logger",
   "description": "Dead simple logging mixin for react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "http://github.com/contra/react-logger",
   "repository": "git://github.com/contra/react-logger.git",
   "author": "Contra <yo@contra.io> (http://contra.io)",
